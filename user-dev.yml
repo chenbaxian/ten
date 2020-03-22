@@ -5,16 +5,16 @@ spring:
     name: tensquare-user #指定服务名
   datasource:  
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://192.168.72.133:3306/tensquare_user?characterEncoding=UTF8&useSSL=false
+    url: jdbc:mysql://192.168.72.134:3306/tensquare_user?characterEncoding=UTF8&useSSL=false
     username: root
     password: root
   jpa: 
     database: MySQL
     show-sql: true
   redis:
-    host: 192.168.72.133
+    host: 192.168.72.134
   rabbitmq:
-    host: 192.168.72.133
+    host: 192.168.72.134
 jwt:
   config:
     key: itcast
