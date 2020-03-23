@@ -5,7 +5,7 @@ spring:
     name: tensquare-base # 指定服务名
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://192.168.72.135:3306/tensquare_base?characterEncoding=UTF-8&serverTimezone=UTC&serverTimezone=Asia/Shanghai&useSSL=false
+    url: jdbc:mysql://192.168.72.136:3306/tensquare_base?characterEncoding=UTF-8&serverTimezone=UTC&serverTimezone=Asia/Shanghai&useSSL=false
     username: root
     password: root
     #&serverTimezone=UTC&serverTimezone=Asia/Shanghai&useSSL=false
@@ -14,7 +14,7 @@ spring:
     database: mysql
     show-sql: true
   rabbitmq:
-    host: 192.168.72.135
+    host: 192.168.72.136
 eureka:
   client: #客户端注册进eureka服务列表内
     service-url:
